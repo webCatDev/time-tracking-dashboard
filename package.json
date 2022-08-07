@@ -1,0 +1,14 @@
+{
+  "name": "time-tracking-dashboard-main",
+  "version": "1.0.0",
+  "description": "frontend mento challenges",
+  "main": "script.js",
+  "scripts": {
+    "watch:sass": "sass main.scss main.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.3"
+  }
+}

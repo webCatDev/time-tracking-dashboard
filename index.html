@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+    <script src="./script.js" defer></script>
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Main Navigation -->
+      <section class="main">
+        <div class="profile">
+          <img src="/images/image-jeremy.png" alt="profile-picture" />
+          <h2>Report for</h2>
+          <h1>Jeremy Robson</h1>
+        </div>
+        <nav class="nav" id="main-navigation">
+          <button aria-label="daily time trackings" data-timeframe="daily">Daily</button>
+          <button aria-label="weekly time trackings" data-timeframe="weekly" class="active">Weekly</button>
+          <button aria-label="monthly time trackings" data-timeframe="monthly">Monthly</button>
+        </nav>
+      </section>
+
+      <!-- Report Section -->
+
+      <section class="reports" id="reports">
+        <!-- <div class="card">
+          <div class="card__icon-box"></div>
+          <article class="card__report-info">
+            <div class="card__report-info__headind-box">
+              <h3 class="card__report-info__headind-box-heading">Work</h3>
+              <div class="card__report-info__headind-box-options">
+                <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="#BBC0FF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p class="card__report-info__current">32hrs</p>
+            <p class="card__report-info__previous">Last week - 36 hours</p>
+          </article>
+        </div> -->
+      </section>
+    </div>
+  </body>
+</html>
